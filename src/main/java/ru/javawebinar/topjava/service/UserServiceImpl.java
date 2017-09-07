@@ -43,6 +43,11 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public void printReposiroty(UserRepository repository) {
+        System.out.printf(repository.toString());
+    }
+
+    @Override
     public void update(User user) {
         repository.save(user);
     }
