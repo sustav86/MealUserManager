@@ -39,6 +39,9 @@
 
         <!--TomCat -->
         <tomcat.version>7.0.78</tomcat.version>
+
+
+        <jackson-json.version>2.8.10</jackson-json.version>
     </properties>
 
     <build>
